@@ -1,0 +1,3402 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2023-02-04T11:28:30.537Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "AboutUs object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2023-02-04T11:29:24.363Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Cold platter",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2023-02-04T11:29:37.391Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Starters",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2023-02-04T11:29:45.917Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Soups",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2023-02-04T11:29:54.756Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "Salads",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2023-02-04T11:30:03.434Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "Meat",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2023-02-04T11:30:11.707Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "6",
+        "object_repr": "Sides",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2023-02-04T11:30:20.951Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "7",
+        "object_repr": "Drinks",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2023-02-04T11:31:34.857Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Coka-cola",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2023-02-04T11:32:07.063Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "Fanta",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2023-02-04T11:32:39.429Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "Sprite",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2023-02-04T11:33:15.932Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "4",
+        "object_repr": "Tomato soup",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2023-02-04T11:33:53.412Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "5",
+        "object_repr": "Roasted Veggies",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2023-02-04T11:34:38.579Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "6",
+        "object_repr": "Grilled Chicken Salad",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2023-02-04T11:35:30.544Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "8",
+        "object_repr": "Appetizers",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2023-02-04T11:36:02.917Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "7",
+        "object_repr": "Chips (French fries)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2023-02-04T11:36:36.996Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "8",
+        "object_repr": "Hummus",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2023-02-04T11:37:39.945Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "9",
+        "object_repr": "Shrimp Tacos with Avocado Salsa",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2023-02-04T11:39:14.833Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "10",
+        "object_repr": "Grilled Leg of Lamb",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2023-02-04T11:39:48.204Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "11",
+        "object_repr": "Frozen Yogurt",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2023-02-04T11:40:22.582Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "12",
+        "object_repr": "Vegetable Soup",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2023-02-04T11:40:51.685Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "13",
+        "object_repr": "Nachos",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2023-02-04T11:41:46.552Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "14",
+        "object_repr": "Greek Salad",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2023-02-04T11:42:49.891Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "15",
+        "object_repr": "Grilled vegetables",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2023-02-04T11:43:00.086Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "14",
+        "object_repr": "Greek Salad",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2023-02-04T11:43:18.825Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "8",
+        "object_repr": "Hummus",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2023-02-04T11:43:33.174Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "10",
+        "object_repr": "Grilled Leg of Lamb",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2023-02-04T11:44:46.397Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "16",
+        "object_repr": "Thai Basil Chicken",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2023-02-04T11:45:36.172Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "17",
+        "object_repr": "Baked Cod with Garlic Mash",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2023-02-04T11:46:56.450Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "18",
+        "object_repr": "Roasted Garlic",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2023-02-04T11:49:06.870Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "19",
+        "object_repr": "Chicken Broth",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2023-02-04T11:50:23.224Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "20",
+        "object_repr": "Garlic bread",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2023-02-04T11:51:10.460Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "21",
+        "object_repr": "Basil pesto pasta",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2023-02-04T11:51:52.825Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "22",
+        "object_repr": "Southwestern Salad",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2023-02-04T11:53:27.858Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "23",
+        "object_repr": "Curried Snapper with Lentils",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2023-02-04T11:53:54.241Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "24",
+        "object_repr": "Beef Teriyaki",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2023-02-04T12:04:09.989Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "AboutUs object (1)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2023-02-04T12:05:48.268Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "AboutUs object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2023-02-04T12:06:58.450Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Block 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2023-02-04T12:07:37.228Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "2",
+        "object_repr": "Block 2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2023-02-04T12:08:28.644Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "3",
+        "object_repr": "Block 3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2023-02-04T12:10:08.647Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "Best party ever!",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2023-02-04T12:10:42.909Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "2",
+        "object_repr": "Banquets",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2023-02-04T12:11:04.313Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "3",
+        "object_repr": "Ball (dance party)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2023-02-04T12:14:23.313Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "HeroSection object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2023-02-04T12:14:39.874Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "2",
+        "object_repr": "HeroSection object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2023-02-04T12:14:52.309Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "3",
+        "object_repr": "HeroSection object (3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2023-02-04T12:20:29.134Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "AboutUs object (2)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Video url\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2023-02-04T12:23:39.613Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "AboutUs object (2)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Heading text\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2023-02-04T12:24:37.643Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "AboutUs object (2)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Font photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2023-02-04T12:26:09.792Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "photo/21f8bc6c-8d2c-466e-8ec2-4593f7c85c2b.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2023-02-04T12:26:13.509Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "2",
+        "object_repr": "photo/34c16ece-c46e-4158-8d7c-94a3822a8a5a.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2023-02-04T12:26:17.002Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "3",
+        "object_repr": "photo/b5fc1e11-a09d-404a-9eb7-9b6a63cccc7e.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2023-02-04T12:26:21.319Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "4",
+        "object_repr": "photo/062a6592-301c-46cb-8f76-ce13863d37bb.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2023-02-04T12:26:24.725Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "5",
+        "object_repr": "photo/6b46440c-176f-4f91-b7e5-9f693d8d9b85.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2023-02-04T12:26:28.231Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "6",
+        "object_repr": "photo/eaffe6e0-ae01-48ae-ab5a-99222af4748e.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2023-02-04T12:26:31.347Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "7",
+        "object_repr": "photo/17efea22-f720-4919-a0a2-489972020961.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2023-02-04T12:26:34.305Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "8",
+        "object_repr": "photo/0035cc9f-55b2-4319-bdc7-a1e8013a2c9a.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2023-02-04T12:29:49.253Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "Gordon Ramsey",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+        "action_time": "2023-02-04T12:30:21.310Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "Inokenty Best",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+        "action_time": "2023-02-04T12:30:39.462Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "3",
+        "object_repr": "Vasyl Virastiuk",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+        "action_time": "2023-02-04T12:33:12.707Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "CustomerFeedback object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+        "action_time": "2023-02-04T12:33:28.082Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "CustomerFeedback object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+        "action_time": "2023-02-04T12:34:07.737Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "3",
+        "object_repr": "CustomerFeedback object (3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+        "action_time": "2023-02-04T12:38:31.443Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "3",
+        "object_repr": "CustomerFeedback object (3)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Customer photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+        "action_time": "2023-02-04T12:38:38.983Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "CustomerFeedback object (2)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Customer photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+        "action_time": "2023-02-04T16:37:50.398Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "4",
+        "object_repr": "sd",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+        "action_time": "2023-02-04T16:38:21.042Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "5",
+        "object_repr": "a",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+        "action_time": "2023-02-04T16:39:25.989Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "4",
+        "object_repr": "sd",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+        "action_time": "2023-02-04T16:39:26.087Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "5",
+        "object_repr": "a",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+        "action_time": "2023-02-04T16:54:05.137Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "1",
+        "object_repr": "Артем Рева, 096 622 5425: Hello everyone!",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+        "action_time": "2023-02-04T16:55:19.873Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "1",
+        "object_repr": "UserReservation object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Message\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+        "action_time": "2023-02-04T16:56:11.186Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "1",
+        "object_repr": "Артем Рева, 096 622 5425: kmk,l",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Message\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+        "action_time": "2023-02-04T16:56:18.637Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "1",
+        "object_repr": "Артем Рева, 096 622 5425: 56552",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Message\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+        "action_time": "2023-02-04T16:57:14.976Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "1",
+        "object_repr": "Артем Рева, 096 622 5425: 262363636363636",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Message\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+        "action_time": "2023-02-04T16:57:20.979Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "1",
+        "object_repr": "Артем Рева, 096 622 5425: 33+",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Message\", \"Is processed\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+        "action_time": "2023-02-04T16:57:52.189Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "1",
+        "object_repr": "Артем Рева, 096 622 5425: 62",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Message\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+        "action_time": "2023-02-04T16:58:00.302Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "1",
+        "object_repr": "Артем Рева, 096 622 5425: 299922",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Message\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+        "action_time": "2023-02-04T17:00:04.467Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "1",
+        "object_repr": "Артем Рева, 096 622 5425: 1515",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Message\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+        "action_time": "2023-02-04T17:00:19.344Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "1",
+        "object_repr": "Артем Рева, 096 622 5425: 1515",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+        "action_time": "2023-02-04T18:15:23.856Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "Best party ever!",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Event date and time\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+        "action_time": "2023-02-04T18:19:15.996Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "Best party ever!",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Event date and time\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 83,
+    "fields": {
+        "action_time": "2023-02-06T08:43:23.036Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "4",
+        "object_repr": "Артем Рева, 0966225425: уууу",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 84,
+    "fields": {
+        "action_time": "2023-02-06T08:43:23.131Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "3",
+        "object_repr": "Артем Паркович, 0502117793: 12331231231",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 85,
+    "fields": {
+        "action_time": "2023-02-06T08:43:23.287Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "2",
+        "object_repr": "Артем Рева, 0966225425: assacxascas",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 86,
+    "fields": {
+        "action_time": "2023-02-06T08:43:23.417Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "1",
+        "object_repr": "Артем Рева, 0966225425: sacacsac",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 87,
+    "fields": {
+        "action_time": "2023-02-06T10:14:21.669Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "5",
+        "object_repr": "Артем Рева, 0966225425: dddd",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is processed\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 88,
+    "fields": {
+        "action_time": "2023-02-07T09:56:16.883Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "AboutUs object (2)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Heading text\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 89,
+    "fields": {
+        "action_time": "2023-02-07T09:57:01.626Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "AboutUs object (2)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Heading text\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 90,
+    "fields": {
+        "action_time": "2023-02-07T10:14:42.450Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "1",
+        "object_repr": "ThisIsForTest object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 91,
+    "fields": {
+        "action_time": "2023-02-07T11:58:22.319Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "1",
+        "object_repr": "Please, contact us",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 92,
+    "fields": {
+        "action_time": "2023-02-07T12:18:09.393Z",
+        "user": 1,
+        "content_type": 21,
+        "object_id": "1",
+        "object_repr": "<p>This <em>site</em> is <strong>awesome</strong>!</p> - <p>All rigths with their owners. Its just for education.</p>",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 93,
+    "fields": {
+        "action_time": "2023-02-07T12:30:50.037Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "1",
+        "object_repr": "Please, contact us",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Phone for top bar\", \"Open hours for top bar\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 94,
+    "fields": {
+        "action_time": "2023-02-07T12:32:28.195Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "1",
+        "object_repr": "Please, contact us",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Open hours for top bar\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 95,
+    "fields": {
+        "action_time": "2023-02-07T12:32:50.086Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "1",
+        "object_repr": "Please, contact us",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Open hours for top bar\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 96,
+    "fields": {
+        "action_time": "2023-02-09T14:46:44.342Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "5",
+        "object_repr": "aa",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 97,
+    "fields": {
+        "action_time": "2023-02-09T14:46:44.417Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "admin2",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 98,
+    "fields": {
+        "action_time": "2023-02-09T14:46:44.503Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "3",
+        "object_repr": "admin2s",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 99,
+    "fields": {
+        "action_time": "2023-02-09T14:46:44.576Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "4",
+        "object_repr": "admin2s1",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 100,
+    "fields": {
+        "action_time": "2023-02-09T14:46:44.662Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "8",
+        "object_repr": "hybrid_tema",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 101,
+    "fields": {
+        "action_time": "2023-02-09T14:46:44.746Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "9",
+        "object_repr": "q",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 102,
+    "fields": {
+        "action_time": "2023-02-09T14:46:44.832Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "6",
+        "object_repr": "revaartem2008",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 103,
+    "fields": {
+        "action_time": "2023-02-09T14:46:44.917Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "7",
+        "object_repr": "wedf",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 104,
+    "fields": {
+        "action_time": "2023-02-09T15:42:08.505Z",
+        "user": 1,
+        "content_type": 3,
+        "object_id": "1",
+        "object_repr": "manager",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 105,
+    "fields": {
+        "action_time": "2023-02-09T15:42:25.807Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "11",
+        "object_repr": "manager",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Groups\", \"User permissions\"]}}]"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add category",
+        "content_type": 7,
+        "codename": "add_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change category",
+        "content_type": 7,
+        "codename": "change_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete category",
+        "content_type": 7,
+        "codename": "delete_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view category",
+        "content_type": 7,
+        "codename": "view_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add dishes",
+        "content_type": 8,
+        "codename": "add_dishes"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change dishes",
+        "content_type": 8,
+        "codename": "change_dishes"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete dishes",
+        "content_type": 8,
+        "codename": "delete_dishes"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view dishes",
+        "content_type": 8,
+        "codename": "view_dishes"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add about us",
+        "content_type": 9,
+        "codename": "add_aboutus"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change about us",
+        "content_type": 9,
+        "codename": "change_aboutus"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete about us",
+        "content_type": 9,
+        "codename": "delete_aboutus"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view about us",
+        "content_type": 9,
+        "codename": "view_aboutus"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add block of information",
+        "content_type": 10,
+        "codename": "add_blockofinformation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change block of information",
+        "content_type": 10,
+        "codename": "change_blockofinformation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete block of information",
+        "content_type": 10,
+        "codename": "delete_blockofinformation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view block of information",
+        "content_type": 10,
+        "codename": "view_blockofinformation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add crew member",
+        "content_type": 11,
+        "codename": "add_crewmember"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change crew member",
+        "content_type": 11,
+        "codename": "change_crewmember"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete crew member",
+        "content_type": 11,
+        "codename": "delete_crewmember"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view crew member",
+        "content_type": 11,
+        "codename": "view_crewmember"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add customer feedback",
+        "content_type": 12,
+        "codename": "add_customerfeedback"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change customer feedback",
+        "content_type": 12,
+        "codename": "change_customerfeedback"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete customer feedback",
+        "content_type": 12,
+        "codename": "delete_customerfeedback"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view customer feedback",
+        "content_type": 12,
+        "codename": "view_customerfeedback"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+        "name": "Can add events",
+        "content_type": 13,
+        "codename": "add_events"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+        "name": "Can change events",
+        "content_type": 13,
+        "codename": "change_events"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+        "name": "Can delete events",
+        "content_type": 13,
+        "codename": "delete_events"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+        "name": "Can view events",
+        "content_type": 13,
+        "codename": "view_events"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+        "name": "Can add hero section",
+        "content_type": 14,
+        "codename": "add_herosection"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+        "name": "Can change hero section",
+        "content_type": 14,
+        "codename": "change_herosection"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+        "name": "Can delete hero section",
+        "content_type": 14,
+        "codename": "delete_herosection"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+        "name": "Can view hero section",
+        "content_type": 14,
+        "codename": "view_herosection"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+        "name": "Can add home slider info",
+        "content_type": 15,
+        "codename": "add_homesliderinfo"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+        "name": "Can change home slider info",
+        "content_type": 15,
+        "codename": "change_homesliderinfo"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+        "name": "Can delete home slider info",
+        "content_type": 15,
+        "codename": "delete_homesliderinfo"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+        "name": "Can view home slider info",
+        "content_type": 15,
+        "codename": "view_homesliderinfo"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 61,
+    "fields": {
+        "name": "Can add photo to gallery",
+        "content_type": 16,
+        "codename": "add_phototogallery"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 62,
+    "fields": {
+        "name": "Can change photo to gallery",
+        "content_type": 16,
+        "codename": "change_phototogallery"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 63,
+    "fields": {
+        "name": "Can delete photo to gallery",
+        "content_type": 16,
+        "codename": "delete_phototogallery"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 64,
+    "fields": {
+        "name": "Can view photo to gallery",
+        "content_type": 16,
+        "codename": "view_phototogallery"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 65,
+    "fields": {
+        "name": "Can add user reservation",
+        "content_type": 17,
+        "codename": "add_userreservation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 66,
+    "fields": {
+        "name": "Can change user reservation",
+        "content_type": 17,
+        "codename": "change_userreservation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 67,
+    "fields": {
+        "name": "Can delete user reservation",
+        "content_type": 17,
+        "codename": "delete_userreservation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 68,
+    "fields": {
+        "name": "Can view user reservation",
+        "content_type": 17,
+        "codename": "view_userreservation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 69,
+    "fields": {
+        "name": "Can add this is for test",
+        "content_type": 18,
+        "codename": "add_thisisfortest"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 70,
+    "fields": {
+        "name": "Can change this is for test",
+        "content_type": 18,
+        "codename": "change_thisisfortest"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 71,
+    "fields": {
+        "name": "Can delete this is for test",
+        "content_type": 18,
+        "codename": "delete_thisisfortest"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 72,
+    "fields": {
+        "name": "Can view this is for test",
+        "content_type": 18,
+        "codename": "view_thisisfortest"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 73,
+    "fields": {
+        "name": "Can add contact us",
+        "content_type": 19,
+        "codename": "add_contactus"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 74,
+    "fields": {
+        "name": "Can change contact us",
+        "content_type": 19,
+        "codename": "change_contactus"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 75,
+    "fields": {
+        "name": "Can delete contact us",
+        "content_type": 19,
+        "codename": "delete_contactus"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 76,
+    "fields": {
+        "name": "Can view contact us",
+        "content_type": 19,
+        "codename": "view_contactus"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 77,
+    "fields": {
+        "name": "Can add information in contact us",
+        "content_type": 20,
+        "codename": "add_informationincontactus"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 78,
+    "fields": {
+        "name": "Can change information in contact us",
+        "content_type": 20,
+        "codename": "change_informationincontactus"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 79,
+    "fields": {
+        "name": "Can delete information in contact us",
+        "content_type": 20,
+        "codename": "delete_informationincontactus"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 80,
+    "fields": {
+        "name": "Can view information in contact us",
+        "content_type": 20,
+        "codename": "view_informationincontactus"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 81,
+    "fields": {
+        "name": "Can add footer",
+        "content_type": 21,
+        "codename": "add_footer"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 82,
+    "fields": {
+        "name": "Can change footer",
+        "content_type": 21,
+        "codename": "change_footer"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 83,
+    "fields": {
+        "name": "Can delete footer",
+        "content_type": 21,
+        "codename": "delete_footer"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 84,
+    "fields": {
+        "name": "Can view footer",
+        "content_type": 21,
+        "codename": "view_footer"
+    }
+},
+{
+    "model": "auth.group",
+    "pk": 1,
+    "fields": {
+        "name": "manager",
+        "permissions": [
+            1,
+            2,
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            5,
+            6,
+            7,
+            8,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            25,
+            26,
+            27,
+            28,
+            73,
+            74,
+            75,
+            76,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            29,
+            30,
+            31,
+            32,
+            49,
+            50,
+            51,
+            52,
+            81,
+            82,
+            83,
+            84,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            77,
+            78,
+            79,
+            80,
+            61,
+            62,
+            63,
+            64,
+            69,
+            70,
+            71,
+            72,
+            65,
+            66,
+            67,
+            68,
+            21,
+            22,
+            23,
+            24
+        ]
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$zA3UPDVoOCTksRlo7MdiUK$2FgbE7Wusrix4MZRGKguBGIc0Go/TCNOU8WNeCsTkwk=",
+        "last_login": "2023-02-09T17:03:14.455Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "rea@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-02-04T11:16:12.968Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 10,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$vSPVHaQW6ZZbHjvZkMmE8d$oHZJz+wCVogEKYkeyOmSu0N6a4x+Ft3gc+mCg8Mic08=",
+        "last_login": "2023-02-09T14:48:28.736Z",
+        "is_superuser": false,
+        "username": "revaartem2008",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-02-09T14:47:05.694Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 11,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$LDUHDio8FOWKlXi8wcke0f$FJ9vlNYachFKMD02Zl8i3Aw3A7y7Nlo87uXL3IWuKBA=",
+        "last_login": "2023-02-09T17:13:57.559Z",
+        "is_superuser": false,
+        "username": "manager",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-02-09T15:41:52Z",
+        "groups": [
+            1
+        ],
+        "user_permissions": [
+            1,
+            2,
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            5,
+            6,
+            7,
+            8,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            25,
+            26,
+            27,
+            28,
+            73,
+            74,
+            75,
+            76,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            29,
+            30,
+            31,
+            32,
+            49,
+            50,
+            51,
+            52,
+            81,
+            82,
+            83,
+            84,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            77,
+            78,
+            79,
+            80,
+            61,
+            62,
+            63,
+            64,
+            69,
+            70,
+            71,
+            72,
+            65,
+            66,
+            67,
+            68,
+            21,
+            22,
+            23,
+            24
+        ]
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "main_page",
+        "model": "category"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "main_page",
+        "model": "dishes"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "main_page",
+        "model": "aboutus"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "main_page",
+        "model": "blockofinformation"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "main_page",
+        "model": "crewmember"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "main_page",
+        "model": "customerfeedback"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "main_page",
+        "model": "events"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+        "app_label": "main_page",
+        "model": "herosection"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": {
+        "app_label": "main_page",
+        "model": "homesliderinfo"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 16,
+    "fields": {
+        "app_label": "main_page",
+        "model": "phototogallery"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 17,
+    "fields": {
+        "app_label": "main_page",
+        "model": "userreservation"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 18,
+    "fields": {
+        "app_label": "main_page",
+        "model": "thisisfortest"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 19,
+    "fields": {
+        "app_label": "main_page",
+        "model": "contactus"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 20,
+    "fields": {
+        "app_label": "main_page",
+        "model": "informationincontactus"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 21,
+    "fields": {
+        "app_label": "main_page",
+        "model": "footer"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "m40cl1eqdlm4391a6s1e3ga3kjcnzeku",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGllZr7-U9DmDtf7hAHKkOKkQdyeRUkD7Zua9madtrX7refFTYlcG7PK7BYrP3A6QHtTuM49zW5cp8EPhJ-18nFN-3U7376BSr3sdDCJIGxKZQiSQQCgSWrscFVhpsyrJOhGcdkNEKHIwYmdYEDTEXNjnC9mYN6U:1pOHGk:1BM2M8I5yJwmg1rrlVo08V4A5HZprdbjRZ8JqIj0i10",
+        "expire_date": "2023-02-18T12:03:46.997Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "w0u5x564pq7xuqtymrp52u8jhrsupu47",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGllZr7-U9DmDtf7hAHKkOKkQdyeRUkD7Zua9madtrX7refFTYlcG7PK7BYrP3A6QHtTuM49zW5cp8EPhJ-18nFN-3U7376BSr3sdDCJIGxKZQiSQQCgSWrscFVhpsyrJOhGcdkNEKHIwYmdYEDTEXNjnC9mYN6U:1pOGWo:d9qs4b8xZZSWsQVpt2UHReboJYlFLzDefHFdDnWsXyo",
+        "expire_date": "2023-02-18T11:16:18.049Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "yyjkhlaqg6uybyr3jci1x2lrqi2t5kpo",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAURP-FtSFQKA-X7vsN5D5AqqZNSrsy_rtt0oUuZ86ZeYsE21rT1vKSRhZXobW4_JYI9MzTQfgB032WNE_rMqI8FHnSJoeZ8-t2un8HFVrd10QGwIVoPXAuhUzB6DkbBSoQGmd75-yeutIZJLYmWo0BeyZkD1qJzxcwMDjh:1pQAUf:dGl_F7beXtKZBOzzYuD-8Zf_Nf3xGYjjBNJ0xZWq-Tw",
+        "expire_date": "2023-02-23T17:13:57.634Z"
+    }
+},
+{
+    "model": "main_page.category",
+    "pk": 1,
+    "fields": {
+        "name": "Cold platter",
+        "position": 1,
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.category",
+    "pk": 2,
+    "fields": {
+        "name": "Starters",
+        "position": 2,
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.category",
+    "pk": 3,
+    "fields": {
+        "name": "Soups",
+        "position": 3,
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.category",
+    "pk": 4,
+    "fields": {
+        "name": "Salads",
+        "position": 4,
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.category",
+    "pk": 5,
+    "fields": {
+        "name": "Meat",
+        "position": 5,
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.category",
+    "pk": 6,
+    "fields": {
+        "name": "Sides",
+        "position": 6,
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.category",
+    "pk": 7,
+    "fields": {
+        "name": "Drinks",
+        "position": 7,
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.category",
+    "pk": 8,
+    "fields": {
+        "name": "Appetizers",
+        "position": 0,
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.dishes",
+    "pk": 1,
+    "fields": {
+        "name": "Coka-cola",
+        "slug": "coka-cola",
+        "position": 1,
+        "price": "15.00",
+        "description": "",
+        "ingredients": "Regular cola.",
+        "is_visible": true,
+        "special": false,
+        "photo": "dishes/ca5459ee-d262-4d2e-b948-b7b537b388a3.jpg",
+        "category": 7
+    }
+},
+{
+    "model": "main_page.dishes",
+    "pk": 2,
+    "fields": {
+        "name": "Fanta",
+        "slug": "fanta",
+        "position": 2,
+        "price": "15.00",
+        "description": "",
+        "ingredients": "Regular fanta.",
+        "is_visible": true,
+        "special": false,
+        "photo": "dishes/cfe76786-a863-4147-bce1-b3042dce0e06.jfif",
+        "category": 7
+    }
+},
+{
+    "model": "main_page.dishes",
+    "pk": 3,
+    "fields": {
+        "name": "Sprite",
+        "slug": "sprite",
+        "position": 3,
+        "price": "15.00",
+        "description": "",
+        "ingredients": "Regular sprite.",
+        "is_visible": true,
+        "special": false,
+        "photo": "dishes/8e59f849-719b-40b2-90df-e7705a2abbff.jpg",
+        "category": 7
+    }
+},
+{
+    "model": "main_page.dishes",
+    "pk": 4,
+    "fields": {
+        "name": "Tomato soup",
+        "slug": "tomato-soup",
+        "position": 1,
+        "price": "2.50",
+        "description": "",
+        "ingredients": "Tomato, onion, water, salt, oil.",
+        "is_visible": true,
+        "special": false,
+        "photo": "dishes/05e75363-da31-40c5-aa5b-f57e360c45ce.webp",
+        "category": 3
+    }
+},
+{
+    "model": "main_page.dishes",
+    "pk": 5,
+    "fields": {
+        "name": "Roasted Veggies",
+        "slug": "roasted-veggies",
+        "position": 1,
+        "price": "3.00",
+        "description": "",
+        "ingredients": "Potato, tomato, corn, cucumber.",
+        "is_visible": true,
+        "special": false,
+        "photo": "dishes/f9442c08-266f-491e-a7b0-0e981e191ae1.jpg",
+        "category": 6
+    }
+},
+{
+    "model": "main_page.dishes",
+    "pk": 6,
+    "fields": {
+        "name": "Grilled Chicken Salad",
+        "slug": "grilled-chicken-salad",
+        "position": 1,
+        "price": "7.99",
+        "description": "",
+        "ingredients": "Chicken, salad.",
+        "is_visible": true,
+        "special": false,
+        "photo": "dishes/a4a67dc6-0c54-4522-b6b7-bb31e0ca1a88.jfif",
+        "category": 4
+    }
+},
+{
+    "model": "main_page.dishes",
+    "pk": 7,
+    "fields": {
+        "name": "Chips (French fries)",
+        "slug": "chips-french-fries",
+        "position": 1,
+        "price": "7.99",
+        "description": "",
+        "ingredients": "Potato, onion",
+        "is_visible": true,
+        "special": false,
+        "photo": "dishes/08055f11-3e8d-4db6-b3b5-e78713f3e467.jfif",
+        "category": 8
+    }
+},
+{
+    "model": "main_page.dishes",
+    "pk": 8,
+    "fields": {
+        "name": "Hummus",
+        "slug": "hummus",
+        "position": 1,
+        "price": "9.50",
+        "description": "",
+        "ingredients": "Chickpeas, tahini, lemon juice, garlic, salt, paprika.",
+        "is_visible": true,
+        "special": false,
+        "photo": "dishes/c1f56331-4d5e-4cf0-add7-dd46c30e0056.jpg",
+        "category": 1
+    }
+},
+{
+    "model": "main_page.dishes",
+    "pk": 9,
+    "fields": {
+        "name": "Shrimp Tacos with Avocado Salsa",
+        "slug": "shrimp-tacos-with-avocado-salsa",
+        "position": 1,
+        "price": "10.99",
+        "description": "",
+        "ingredients": "Tacos, slalsa, garlic",
+        "is_visible": true,
+        "special": false,
+        "photo": "dishes/416fdb1e-20c2-449c-868d-32856569c4cc.jpg",
+        "category": 2
+    }
+},
+{
+    "model": "main_page.dishes",
+    "pk": 10,
+    "fields": {
+        "name": "Grilled Leg of Lamb",
+        "slug": "grilled-leg-of-lamb",
+        "position": 1,
+        "price": "16.00",
+        "description": "Instead of butterflying a boned leg of lamb and cooking it whole, chef Cal Peternell carefully cuts along the four natural muscle separations (they're easily visible) and pulls the four pieces apart with his fingers. Grilling the lamb this way is quicker.",
+        "ingredients": "Leg of lamb, salad, onion, oil.",
+        "is_visible": true,
+        "special": true,
+        "photo": "dishes/590f8d4d-f995-405a-adee-265dadee4238.jpg",
+        "category": 5
+    }
+},
+{
+    "model": "main_page.dishes",
+    "pk": 11,
+    "fields": {
+        "name": "Frozen Yogurt",
+        "slug": "frozen-yogurt",
+        "position": 2,
+        "price": "2.50",
+        "description": "",
+        "ingredients": "Frozen Yogurt",
+        "is_visible": true,
+        "special": false,
+        "photo": "dishes/9f9b67c0-b812-4b5d-9205-3a46ca2d20b7.jfif",
+        "category": 6
+    }
+},
+{
+    "model": "main_page.dishes",
+    "pk": 12,
+    "fields": {
+        "name": "Vegetable Soup",
+        "slug": "vegetable-soup",
+        "position": 2,
+        "price": "3.00",
+        "description": "",
+        "ingredients": "Potato, carrot, water.",
+        "is_visible": true,
+        "special": false,
+        "photo": "dishes/0c6bd1a5-237f-450f-9a36-71d317d4760d.jfif",
+        "category": 3
+    }
+},
+{
+    "model": "main_page.dishes",
+    "pk": 13,
+    "fields": {
+        "name": "Nachos",
+        "slug": "nachos",
+        "position": 2,
+        "price": "5.99",
+        "description": "",
+        "ingredients": "Nacos chips",
+        "is_visible": true,
+        "special": false,
+        "photo": "dishes/91c19265-5b26-431d-9ddc-e953296f39af.webp",
+        "category": 8
+    }
+},
+{
+    "model": "main_page.dishes",
+    "pk": 14,
+    "fields": {
+        "name": "Greek Salad",
+        "slug": "greek-salad",
+        "position": 2,
+        "price": "8.50",
+        "description": "",
+        "ingredients": "Cheese, salad, cucumber.",
+        "is_visible": true,
+        "special": false,
+        "photo": "dishes/3310a0e3-ac42-42fa-a9b8-3cd74470db47.jpg",
+        "category": 4
+    }
+},
+{
+    "model": "main_page.dishes",
+    "pk": 15,
+    "fields": {
+        "name": "Grilled vegetables",
+        "slug": "grilled-vegetables",
+        "position": 2,
+        "price": "8.99",
+        "description": "",
+        "ingredients": "Zucchini, yellow squash, red onion, red pepper, olive oil, salt, pepper.",
+        "is_visible": true,
+        "special": false,
+        "photo": "dishes/203d1853-f2d4-4172-97fc-e78d08332712.jpg",
+        "category": 1
+    }
+},
+{
+    "model": "main_page.dishes",
+    "pk": 16,
+    "fields": {
+        "name": "Thai Basil Chicken",
+        "slug": "thai-basil-chicken",
+        "position": 2,
+        "price": "11.99",
+        "description": "",
+        "ingredients": "Cheese, salad, cucumber, rice.",
+        "is_visible": true,
+        "special": false,
+        "photo": "dishes/19d861a8-ea5a-44c9-a6ce-27d212051713.jpg",
+        "category": 5
+    }
+},
+{
+    "model": "main_page.dishes",
+    "pk": 17,
+    "fields": {
+        "name": "Baked Cod with Garlic Mash",
+        "slug": "baked-cod-with-garlic-mash",
+        "position": 2,
+        "price": "12.00",
+        "description": "",
+        "ingredients": "Cod, garlic, lemon.",
+        "is_visible": true,
+        "special": false,
+        "photo": "dishes/a2cbd62e-14b5-4e16-aaf5-cbef4813d853.webp",
+        "category": 2
+    }
+},
+{
+    "model": "main_page.dishes",
+    "pk": 18,
+    "fields": {
+        "name": "Roasted Garlic",
+        "slug": "roasted-garlic",
+        "position": 3,
+        "price": "0.50",
+        "description": "Roasting garlic changes the chemical makeup of the garlic so that it's easier to digest. You can eat a lot more garlic if it is completely cooked, with fewer side effects than you would get from eating raw garlic. Eat the caramelized roasted cloves directly out of the heads, or add them.",
+        "ingredients": "Garlic",
+        "is_visible": true,
+        "special": true,
+        "photo": "dishes/2d208d4c-4bc2-4fdb-af1b-c46b1312f159.jpg",
+        "category": 6
+    }
+},
+{
+    "model": "main_page.dishes",
+    "pk": 19,
+    "fields": {
+        "name": "Chicken Broth",
+        "slug": "chicken-broth",
+        "position": 3,
+        "price": "3.49",
+        "description": "For the best, most delicious homemade chicken broth, start with a whole raw chicken or chicken pieces and simple vegetables and herbs. At the end of it, you’ll have 4 cups of delicious cooked chicken and 2 quarts of the best chicken broth you’ve ever tasted. Freeze it for your future soups, stews.",
+        "ingredients": "Chicken, water, salt.",
+        "is_visible": true,
+        "special": true,
+        "photo": "dishes/26db5dfc-aef3-4176-9eb9-f74663a6691c.jpg",
+        "category": 3
+    }
+},
+{
+    "model": "main_page.dishes",
+    "pk": 20,
+    "fields": {
+        "name": "Garlic bread",
+        "slug": "garlic-bread",
+        "position": 3,
+        "price": "4.50",
+        "description": "Soft garlic bread gets sliced like an accordion (slice as if cutting slices, but don't go all the way through), then slather the butter mixer between the slices. Wrap the bread up in foil, then bake. This will keep the bread soft while infusing garlicky-butter into each slice.",
+        "ingredients": "Bread, garlic.",
+        "is_visible": true,
+        "special": true,
+        "photo": "dishes/87e89385-e987-43bc-b135-c4fcc06bb1a8.jpg",
+        "category": 8
+    }
+},
+{
+    "model": "main_page.dishes",
+    "pk": 21,
+    "fields": {
+        "name": "Basil pesto pasta",
+        "slug": "basil-pesto-pasta",
+        "position": 3,
+        "price": "7.99",
+        "description": "",
+        "ingredients": "Spaghetti, basil, Parmesan cheese, garlic, olive oil, salt",
+        "is_visible": true,
+        "special": false,
+        "photo": "dishes/ad6396ee-6eda-4f8f-90ea-09fbfd770c2c.jfif",
+        "category": 1
+    }
+},
+{
+    "model": "main_page.dishes",
+    "pk": 22,
+    "fields": {
+        "name": "Southwestern Salad",
+        "slug": "southwestern-salad",
+        "position": 3,
+        "price": "9.50",
+        "description": "",
+        "ingredients": "Corn, salad, tomato.",
+        "is_visible": true,
+        "special": false,
+        "photo": "dishes/868f3c88-bf53-42f3-8c4c-854185dbf88d.jpg",
+        "category": 4
+    }
+},
+{
+    "model": "main_page.dishes",
+    "pk": 23,
+    "fields": {
+        "name": "Curried Snapper with Lentils",
+        "slug": "curried-snapper-with-lentils",
+        "position": 3,
+        "price": "13.00",
+        "description": "I had the idea of making this dish, after raiding our cupboards and finding an unopened pack of green lentils. I knew we had frozen fish, and thought a curried lentil dish would work well. However, I struggled to find just what I had in mind online. So instead, I sort of combined.",
+        "ingredients": "Snapper, lentils, carry.",
+        "is_visible": true,
+        "special": false,
+        "photo": "dishes/50c6e987-28c9-42f7-8102-94bb47ceaba2.jpg",
+        "category": 2
+    }
+},
+{
+    "model": "main_page.dishes",
+    "pk": 24,
+    "fields": {
+        "name": "Beef Teriyaki",
+        "slug": "beef-teriyaki",
+        "position": 3,
+        "price": "13.50",
+        "description": "",
+        "ingredients": "Beef, teriyaki sauce, salad.",
+        "is_visible": true,
+        "special": false,
+        "photo": "dishes/045a55c6-139f-4bd4-ad44-03f94ceffd47.jfif",
+        "category": 5
+    }
+},
+{
+    "model": "main_page.events",
+    "pk": 1,
+    "fields": {
+        "title": "Best party ever!",
+        "event_description": "A party is a gathering of people who have been invited by a host for the purposes of socializing, conversation, recreation, or as part of a festival or other commemoration or celebration of a special occasion. A party will often feature food and beverages, and often conversation, music, dancing, or other forms of entertainment.",
+        "event_date_and_time": "2023-02-02T12:09:52Z",
+        "event_price": 599,
+        "photo": "events/5f2fcc1e-e5ea-44f4-88fa-0f3a7d1a11ad.jpg",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.events",
+    "pk": 2,
+    "fields": {
+        "title": "Banquets",
+        "event_description": "A banquet (/ˈbæŋkwɪt/; French: [bɑ̃kɛ]) is a formal large meal [1] where a number of people consume food together. Banquets are traditionally held to enhance the prestige of a host, or reinforce social bonds among joint contributors. Modern examples of these purposes include a charitable gathering, a ceremony, or a celebration. They often involve speeches in honor of the topic or guest of honour.",
+        "event_date_and_time": "2023-02-28T12:10:27Z",
+        "event_price": 899,
+        "photo": "events/f84ef0fd-edf6-44ca-9400-548bd0a850a6.JPG",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.events",
+    "pk": 3,
+    "fields": {
+        "title": "Ball (dance party)",
+        "event_description": "A ball is a formal dance party often characterised by a banquet followed by a social dance that includes ballroom dancing. Ball dancing emerged from formal dances during the Middle Ages and carried on through different iterations throughout succeeding centuries, such as the 17th century Baroque dance and the 18th century cotillion. Several variations exists such as the masquerade and debutante ball as well as the more modern prom.",
+        "event_date_and_time": "2023-03-17T12:10:56Z",
+        "event_price": 1099,
+        "photo": "events/ae74f029-b1be-48bd-bb1c-3d486357decb.jpg",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.phototogallery",
+    "pk": 1,
+    "fields": {
+        "photo": "photo/21f8bc6c-8d2c-466e-8ec2-4593f7c85c2b.jpg",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.phototogallery",
+    "pk": 2,
+    "fields": {
+        "photo": "photo/34c16ece-c46e-4158-8d7c-94a3822a8a5a.jpg",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.phototogallery",
+    "pk": 3,
+    "fields": {
+        "photo": "photo/b5fc1e11-a09d-404a-9eb7-9b6a63cccc7e.jpg",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.phototogallery",
+    "pk": 4,
+    "fields": {
+        "photo": "photo/062a6592-301c-46cb-8f76-ce13863d37bb.jpg",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.phototogallery",
+    "pk": 5,
+    "fields": {
+        "photo": "photo/6b46440c-176f-4f91-b7e5-9f693d8d9b85.jpg",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.phototogallery",
+    "pk": 6,
+    "fields": {
+        "photo": "photo/eaffe6e0-ae01-48ae-ab5a-99222af4748e.jpg",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.phototogallery",
+    "pk": 7,
+    "fields": {
+        "photo": "photo/17efea22-f720-4919-a0a2-489972020961.jpg",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.phototogallery",
+    "pk": 8,
+    "fields": {
+        "photo": "photo/0035cc9f-55b2-4319-bdc7-a1e8013a2c9a.jpg",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.aboutus",
+    "pk": 2,
+    "fields": {
+        "header": "Restaurants are classified or distinguished in many different ways.",
+        "heading_text": "A public eating establishment similar to a restaurant is mentioned in a 512 BC record from Ancient Egypt. It served only one dish, a plate of cereal, wild fowl, and onions.[6]\r\n\r\nA forerunner of the modern restaurant is the thermopolium, an establishment in Ancient Greece and Ancient Rome that sold and served ready-to-eat food and beverages. These establishments were somewhat comparable to modern fast food restaurants. They were most often frequented by people who lacked private kitchens. In the Roman Empire they were popular among residents of insulae.[7]\r\n\r\nIn Pompeii, 158 thermopolia with service counters have been identified throughout the town. They were concentrated along the.",
+        "font_photo": "about_us/fee01024-8915-4069-9f48-30e62ada087b.jpg",
+        "video_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    }
+},
+{
+    "model": "main_page.blockofinformation",
+    "pk": 1,
+    "fields": {
+        "block_number": 1,
+        "block_title": "We like you very much.",
+        "block_text": "We are ready to jump with happiness that you have stopped at our restaurant, because the money we use to run our business is very important to us, and without money we will not succeed, so come and spend your hard-earned money with us."
+    }
+},
+{
+    "model": "main_page.blockofinformation",
+    "pk": 2,
+    "fields": {
+        "block_number": 2,
+        "block_title": "We are just delighted with you!",
+        "block_text": "We are ready to jump for joy that you are staying at our restaurant, because the money we use to run our business is very important to us, and without money we will not succeed, so come and spend your hard-earned money with us."
+    }
+},
+{
+    "model": "main_page.blockofinformation",
+    "pk": 3,
+    "fields": {
+        "block_number": 3,
+        "block_title": "The best client is you!",
+        "block_text": "We’re ready to jump for joy that you stopped by our restaurant, because cash is the key to running your business, and you wouldn’t be successful without it, so come spend your hard-earned cash with us."
+    }
+},
+{
+    "model": "main_page.crewmember",
+    "pk": 1,
+    "fields": {
+        "member_name": "Gordon Ramsey",
+        "member_description": "Chef The Best",
+        "member_photo": "member_photos/9e2d2672-7ed4-4d0b-b2e7-4dfbababd068.jpg",
+        "twitter_link": "https://twitter.com/rickastley/status/1552237188494008321",
+        "facebook_link": "https://www.facebook.com/watch/?v=471344660006374",
+        "instagram_link": "https://www.instagram.com/explore/tags/nevergonnagiveyouup/?hl=ru",
+        "linkedin_link": "https://www.linkedin.com/in/rick-roll-6b3ab1218/"
+    }
+},
+{
+    "model": "main_page.crewmember",
+    "pk": 2,
+    "fields": {
+        "member_name": "Inokenty Best",
+        "member_description": "Media Partner",
+        "member_photo": "member_photos/71c31fb5-804f-4f27-b3e3-c61bcdc40a94.jpg",
+        "twitter_link": "https://twitter.com/rickastley/status/1552237188494008321",
+        "facebook_link": "https://www.facebook.com/watch/?v=471344660006374",
+        "instagram_link": "https://www.instagram.com/explore/tags/nevergonnagiveyouup/?hl=ru",
+        "linkedin_link": "https://www.linkedin.com/in/rick-roll-6b3ab1218/"
+    }
+},
+{
+    "model": "main_page.crewmember",
+    "pk": 3,
+    "fields": {
+        "member_name": "Vasyl Virastiuk",
+        "member_description": "Security",
+        "member_photo": "member_photos/5e187349-24a9-4818-b4f7-2b72669d133d.jpg",
+        "twitter_link": "https://twitter.com/rickastley/status/1552237188494008321",
+        "facebook_link": "https://www.facebook.com/watch/?v=471344660006374",
+        "instagram_link": "https://www.instagram.com/explore/tags/nevergonnagiveyouup/?hl=ru",
+        "linkedin_link": "https://www.linkedin.com/in/rick-roll-6b3ab1218/"
+    }
+},
+{
+    "model": "main_page.customerfeedback",
+    "pk": 1,
+    "fields": {
+        "customer_name": "Bill Clinton",
+        "position": "President of US",
+        "comment": "Scottish by birth, Gordon Ramsay was brought up in Stratford-upon-Avon, England. With an injury prematurely putting an end to any hopes of a promising career in football, he went back to college to co",
+        "is_visible": true,
+        "customer_photo": "Bill_Clinton.jpg"
+    }
+},
+{
+    "model": "main_page.customerfeedback",
+    "pk": 2,
+    "fields": {
+        "customer_name": "Jane Foster",
+        "position": "Tor's wife",
+        "comment": "You won’t believe this juicy steak is vegan - you’ll have to try it to believe. My meaty take on steakhouse classics doesn’t lack flavor, basted in charred veggie demi and topped with wine-glazed mush",
+        "is_visible": true,
+        "customer_photo": "jane.jpg"
+    }
+},
+{
+    "model": "main_page.customerfeedback",
+    "pk": 3,
+    "fields": {
+        "customer_name": "Will Smith",
+        "position": "Face-smasher",
+        "comment": "Internationally renowned, multi-Michelin starred chef Gordon Ramsay has opened a string of successful restaurants across the globe, from the UK and France to Singapore and the United States. Gordon ha",
+        "is_visible": true,
+        "customer_photo": "wiillam.jpg"
+    }
+},
+{
+    "model": "main_page.herosection",
+    "pk": 1,
+    "fields": {
+        "photo": "hero/79192cd6-4afe-4d54-b2ca-ec63cd572b3f.jpg",
+        "title": "The best choice - the best way!",
+        "description": "The catalogue of programs that Ramsay has worked on historically with All3Media via One Potato Two Potato, together with new original content he's currently developing, make for a unique and dynamic production and distribution partnership. Its first daytime cooking series, \"\"Culinary Genius,\"\" premiered in the spring on ITV in the U.K. was syndicated on FOX stations in the U.S. this past summer. Seasons 3 and 4 of \"Matilda and the Ramsay Bunch,\" starring Tilly Ramsay for U.K."
+    }
+},
+{
+    "model": "main_page.herosection",
+    "pk": 2,
+    "fields": {
+        "photo": "hero/ead2faa2-52c5-45e5-a77f-9fefde0adf47.jpg",
+        "title": "Enjoy your life in every second!",
+        "description": "His next-generation multi-media production company Studio Ramsay has a joint venture with All3Media to develop and produce both unscripted and scripted television shows, creating new formats and innovative programming that includes a scripted arm focused on food-related themes, and development of new talent on a global front."
+    }
+},
+{
+    "model": "main_page.herosection",
+    "pk": 3,
+    "fields": {
+        "photo": "hero/4bc0cf1a-1d21-44f6-9048-5c061f83e56c.jpeg",
+        "title": "There the best restaurant in your life!",
+        "description": "In 1993 Ramsay became chef of Aubergine in London, which within three years was awarded two Michelin stars. In 1998, at the age of 31, Ramsay set up his first wholly owned and namesake restaurant, Restaurant Gordon Ramsay, which quickly received the most prestigious accolade in the culinary world - three Michelin stars. Today, Restaurant Gordon Ramsay is London's longest-running restaurant to hold this award, and Ramsay is one of only four chefs in the UK to maintain three stars."
+    }
+},
+{
+    "model": "main_page.userreservation",
+    "pk": 5,
+    "fields": {
+        "name": "Артем Рева",
+        "email": "revaartem2008@gmail.com",
+        "phone": "0966225425",
+        "date_reservation": "04.01.2023",
+        "time_reservation": "16:51:23",
+        "persons": 2,
+        "message": "dddd",
+        "date_of_the_request": "2023-02-06T08:46:55.618Z",
+        "is_processed": false
+    }
+},
+{
+    "model": "main_page.userreservation",
+    "pk": 6,
+    "fields": {
+        "name": "Артем Рева",
+        "email": "revaartem2008@gmail.com",
+        "phone": "0966225425",
+        "date_reservation": "04.01.2023",
+        "time_reservation": "16:51:23",
+        "persons": 8,
+        "message": "gfhgvjb",
+        "date_of_the_request": "2023-02-07T11:34:23.305Z",
+        "is_processed": true
+    }
+},
+{
+    "model": "main_page.userreservation",
+    "pk": 7,
+    "fields": {
+        "name": "Артем Рева",
+        "email": "revaartem2008@gmail.com",
+        "phone": "0966225425",
+        "date_reservation": "04.01.2023",
+        "time_reservation": "16:51:23",
+        "persons": 8,
+        "message": "gfhgvjb",
+        "date_of_the_request": "2023-02-07T11:34:38.096Z",
+        "is_processed": false
+    }
+},
+{
+    "model": "main_page.userreservation",
+    "pk": 8,
+    "fields": {
+        "name": "Reva Artem",
+        "email": "revaartem2008@gmail.com",
+        "phone": "0502117793",
+        "date_reservation": "05.01.2023",
+        "time_reservation": "16:51:23",
+        "persons": 6,
+        "message": "dtxgfhbjknlm;,'",
+        "date_of_the_request": "2023-02-07T11:35:14.745Z",
+        "is_processed": true
+    }
+},
+{
+    "model": "main_page.userreservation",
+    "pk": 9,
+    "fields": {
+        "name": "Артем Рева",
+        "email": "revaartem2008@gmail.com",
+        "phone": "0966225425",
+        "date_reservation": "05.01.2023",
+        "time_reservation": "16:51:23",
+        "persons": 555,
+        "message": "цыукваенпргщдз",
+        "date_of_the_request": "2023-02-09T17:02:42.474Z",
+        "is_processed": true
+    }
+},
+{
+    "model": "main_page.thisisfortest",
+    "pk": 1,
+    "fields": {
+        "this_is_text": "<p>This is first line.</p>\r\n<p>There is the second line.</p>\r\n<p>&nbsp;</p>",
+        "this_is_text_2": "<p>zz</p>",
+        "this_is_text_3": "<p>zza</p>"
+    }
+},
+{
+    "model": "main_page.contactus",
+    "pk": 1,
+    "fields": {
+        "name": "Артем Рева",
+        "email": "revaartem2008@gmail.com",
+        "subject": "This is text message!",
+        "message": "asdfghjk",
+        "date_of_the_request": "2023-02-07T11:41:16.346Z",
+        "is_processed": true
+    }
+},
+{
+    "model": "main_page.contactus",
+    "pk": 2,
+    "fields": {
+        "name": "Артем Рева",
+        "email": "revaartem2008@gmail.com",
+        "subject": "This is text message!",
+        "message": "rdtfvygbhnjmk,l",
+        "date_of_the_request": "2023-02-07T13:03:59.112Z",
+        "is_processed": true
+    }
+},
+{
+    "model": "main_page.contactus",
+    "pk": 3,
+    "fields": {
+        "name": "Рева Артем",
+        "email": "revaartem2008@gmail.com",
+        "subject": "qdfwedgrtfyhj",
+        "message": "qAWSEDRFGTOLP;'",
+        "date_of_the_request": "2023-02-09T16:02:25.280Z",
+        "is_processed": false
+    }
+},
+{
+    "model": "main_page.contactus",
+    "pk": 4,
+    "fields": {
+        "name": "Артем Рева",
+        "email": "revaartem2008@gmail.com",
+        "subject": "This is text message!",
+        "message": "уцыкчвесанигртшьол",
+        "date_of_the_request": "2023-02-09T17:02:56.452Z",
+        "is_processed": true
+    }
+},
+{
+    "model": "main_page.informationincontactus",
+    "pk": 1,
+    "fields": {
+        "header": "Please, contact us",
+        "heading_text": "<p>What is contact information? Your contact information is&nbsp;<strong>used to contact you, and can include information such as your name, phone number and email</strong>.</p>",
+        "location": "<p>St. Jones st. 5</p>\r\n<p>Appartment 22</p>",
+        "open_hours": "<p>Monday-Sunday:<br />18:00 AM - 24:00 PM</p>",
+        "email": "<p>info@test.com<br />contact@test.com</p>",
+        "call": "<p>+1 9999 99999 99<br />+1 8888 88888 88</p>",
+        "phone_for_top_bar": "+1 8888 88888 8",
+        "open_hours_for_top_bar": "Mon-Sun: 18:00 AM - 24:00 PM"
+    }
+},
+{
+    "model": "main_page.footer",
+    "pk": 1,
+    "fields": {
+        "header": "<p>This <em>site</em> is <strong>awesome</strong>!</p>",
+        "heading_text": "<p>I really like this restaurant, and it's the reason, why I will come back soon.</p>",
+        "twitter": "https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-7&xids=played&beta=false&order_by=popularity%20desc",
+        "facebook": "https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-7&xids=played&beta=false&order_by=popularity%20desc",
+        "instagram": "https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-7&xids=played&beta=false&order_by=popularity%20desc",
+        "skype": "https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-7&xids=played&beta=false&order_by=popularity%20desc",
+        "linked_in": "https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-7&xids=played&beta=false&order_by=popularity%20desc",
+        "site_owner": "<p>All rigths with their owners. Its just for education.</p>"
+    }
+}
+]
+
