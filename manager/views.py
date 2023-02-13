@@ -11,24 +11,28 @@ def is_manager(user):
 @login_required(login_url='login/')
 @user_passes_test(is_manager)
 def manager_page(request):
+    user_auth = request.user.is_authenticated
     information_in_contact_us = InformationInContactUs.objects.get()
     footer = Footer.objects.get()
     return render(request, 'manager_main_page.html', context={
         'information_in_contact_us': information_in_contact_us,
-        'footer': footer
+        'footer': footer,
+        'user_auth': user_auth,
     })
 
 
 @login_required(login_url='login/')
 @user_passes_test(is_manager)
 def reservation_list(request):
+    user_auth = request.user.is_authenticated
     lst = UserReservation.objects.filter(is_processed=False)
     information_in_contact_us = InformationInContactUs.objects.get()
     footer = Footer.objects.get()
     return render(request, 'reservations_list.html', context={
         'lst': lst,
         'information_in_contact_us': information_in_contact_us,
-        'footer': footer
+        'footer': footer,
+        'user_auth': user_auth,
     })
 
 
@@ -42,13 +46,15 @@ def update_reservation(request, pk):
 @login_required(login_url='/login/')
 @user_passes_test(is_manager)
 def contact_list(request):
+    user_auth = request.user.is_authenticated
     all_contacts = ContactUs.objects.filter(is_processed=False)
     information_in_contact_us = InformationInContactUs.objects.get()
     footer = Footer.objects.get()
     return render(request, 'contact_list.html', context={
         'all_contacts': all_contacts,
         'information_in_contact_us': information_in_contact_us,
-        'footer': footer
+        'footer': footer,
+        'user_auth': user_auth,
     })
 
 
