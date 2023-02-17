@@ -4,12 +4,37 @@ from django.shortcuts import render, HttpResponse, redirect
 from .models import Category, Dishes, AboutUs, BlockOfInformation, Events, PhotoToGallery, CrewMember, \
     CustomerFeedback, HeroSection, ThisIsForTest, InformationInContactUs, Footer
 from .forms import UserReservationForm, ContactUsForm
-from django.contrib.auth.models import User
 # Create your views here.
 
 
-
 def main_page(request):
+    """
+    View function of the main page. Processed POST and GET requests.
+
+    :param request: POST or GET request.
+    :return: Render of the HTML-page with context.
+
+    reservation - Form of model User Reservation.\n
+    contact_us - Form of the model Contact Us.\n
+    user_manager - Objects model 'UserManager' filtered by group 'manager'\n
+    user_auth - Is user logged in or not.\n
+    categories - Category model objects filtered by 'is_visible' marker.\n
+    dishes - Dishes model objects filtered by 'is_visible' marker.\n
+    specials - Dishes model objects filtered by 'is_special' marker.\n
+    about_us - Object of the model 'About Us'\n
+    blocks_with_info - All objects of the BlockOfInformation model.\n
+    events - Events model objects filtered by date and time. If event date > than datetime.now,
+    event will be filtered out.\n
+    photo_in_gallery -
+    crew_member - all objects model PhotoToGallery.
+    testimonials - Objects model CustomerFeedback filtered by 'is_visible' marker.\n
+    hero - Object of the model 'HeroSection'.\n
+    reservation - form UserReservationForm.\n
+    test - test feature.\n
+    contact_us - form ContactUsForm.\n
+    information_in_contact_us - object model InformationInContactUs.\n
+    footer - object model Footer.\n
+    """
 
     if request.method == 'POST':
         reservation = UserReservationForm(request.POST)
