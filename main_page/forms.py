@@ -3,6 +3,11 @@ from .models import UserReservation, ContactUs
 
 
 class ContactUsForm(forms.ModelForm):
+    """
+    Class for creating correct form Contact Us on the page.
+    
+    All variables inside HTML-tags.
+    """
 
     name = forms.CharField(
         max_length=50,
@@ -55,6 +60,10 @@ class ContactUsForm(forms.ModelForm):
 
 
 class UserReservationForm(forms.ModelForm):
+    """Class for creating correct form User Reservation on the page.
+    
+    All variables inside HTML-tags.
+    """
 
     name = forms.CharField(
         max_length=50,
