@@ -6,6 +6,13 @@ import os
 
 
 class Category(models.Model):
+    """
+    The class is responsible for creating "Category" models In the database.
+
+    name - Name of the category.\n
+    position - Position of the category in menu.\n
+    is_visible - Is category visible on the site or not.\n
+    """
     name = models.CharField(unique=True, max_length=50, db_index=True)
     position = models.SmallIntegerField(unique=True)
     is_visible = models.BooleanField(default=True)
@@ -18,8 +25,28 @@ class Category(models.Model):
 
 
 class Dishes(models.Model):
+    """
+    The class is responsible for creating "Dish" models In the database.
+
+    name - Name of the dish.\n
+    slug - Slug from the name.\n
+    position - Position in the menu category.\n
+    price - Price of the dish.\n
+    description - Description of the dish.\n
+    ingredients - Ingredients of the dish.\n
+    is_visible - Is dish visible on the site or not.\n
+    special - Is dish in 'special' dishes or not\n
+    photo - Photo of the dish\n
+    category - Category of the dish.\n
+    """
 
     def get_file_name(self, filename: str) -> str:
+        """
+        Function for getting unique uuid-names for media files.
+
+        :param filename: file original name.
+        :return: New file name in uuid-4 format.
+        """
         ext_of_file = filename.strip().split('.')[-1]
         new_filename = f'{uuid.uuid4()}.{ext_of_file}'
         return os.path.join('dishes/', new_filename)
@@ -44,8 +71,24 @@ class Dishes(models.Model):
 
 
 class Events(models.Model):
+    """
+    The class is responsible for creating "Events" models In the database.
+
+    title - Title of the event.\n
+    event_description - Event description.\n
+    event_date_and_time - Date and time of the event.\n
+    event_price - Event entry price.\n
+    photo - Photo to promotion.\n
+    is_visible - Is event visible on site.\n
+    """
 
     def get_file_name(self, filename: str) -> str:
+        """
+        Function for getting unique uuid-names for media files.
+
+        :param filename: file original name.
+        :return: New file name in uuid-4 format.
+        """
         ext_of_file = filename.strip().split('.')[-1]
         new_filename = f'{uuid.uuid4()}.{ext_of_file}'
         return os.path.join('events/', new_filename)
@@ -65,8 +108,22 @@ class Events(models.Model):
 
 
 class PhotoToGallery(models.Model):
+    """
+    The class is responsible for creating "Photo to gallery" models In the database.
+
+    With this model we can download photos to the app and show them on site later.
+
+    photo - Photo to the gallery.\n
+    is_visible - Is photo visible in the gallery.\n
+    """
 
     def get_file_name(self, filename: str) -> str:
+        """
+        Function for getting unique uuid-names for media files.
+
+        :param filename: file original name.
+        :return: New file name in uuid-4 format.
+        """
         ext_of_file = filename.strip().split('.')[-1]
         new_filename = f'{uuid.uuid4()}.{ext_of_file}'
         return os.path.join('photo/', new_filename)
@@ -82,8 +139,22 @@ class PhotoToGallery(models.Model):
 
 
 class AboutUs(models.Model):
+    """
+    The class is responsible for creating "Photo to gallery" models In the database.
+
+    header - Header of the About Us section.\n
+    heading_text - Heading text of the About Us section.\n
+    font_photo - Font photo of the section.\n
+    video_url - URL-link to the video.\n
+    """
 
     def get_file_name(self, filename: str) -> str:
+        """
+        Function for getting unique uuid-names for media files.
+
+        :param filename: file original name.
+        :return: New file name in uuid-4 format.
+        """
         ext_of_file = filename.strip().split('.')[-1]
         new_filename = f'{uuid.uuid4()}.{ext_of_file}'
         return os.path.join('about_us/', new_filename)
@@ -95,6 +166,15 @@ class AboutUs(models.Model):
 
 
 class BlockOfInformation(models.Model):
+    """
+    The class is responsible for creating "Block of information" models In the database.
+
+    You can add any quantities of blocks, all they will be displayed on site.
+
+    block_number - Number of block (visible part on site).\n
+    block_title - Title of the block.\n
+    block_text - Text inside the block.\n
+    """
 
     block_number = models.SmallIntegerField()
     block_title = models.TextField(max_length=50)
@@ -105,8 +185,25 @@ class BlockOfInformation(models.Model):
 
 
 class CrewMember(models.Model):
+    """
+    The class is responsible for creating "Crew member" models In the database.
+
+    member_name - Name of the team member.\n
+    member_description - Description of the team member.\n
+    member_photo - Photo of the team member.\n
+    twitter_link - Team member twitter link.\n
+    facebook_link - Team member facebook link.\n
+    instagram_link - Team member instagram link.\n
+    linkedin_link - Team member linkedin link.\n
+    """
 
     def get_file_name(self, filename: str) -> str:
+        """
+        Function for getting unique uuid-names for media files.
+
+        :param filename: file original name.
+        :return: New file name in uuid-4 format.
+        """
         ext_of_file = filename.strip().split('.')[-1]
         new_filename = f'{uuid.uuid4()}.{ext_of_file}'
         return os.path.join('member_photos/', new_filename)
@@ -124,8 +221,23 @@ class CrewMember(models.Model):
 
 
 class CustomerFeedback(models.Model):
+    """
+    The class is responsible for creating "Customer Feedback" models In the database.
+
+    customer_name - Name of the customer.\n
+    position - position.\n
+    comment - Text of the comment.\n
+    is_visible - Is comment visible on site.\n
+    customer_photo - Photo of the customer.\n
+    """
 
     def get_file_name(self, filename: str) -> str:
+        """
+        Function for getting unique uuid-names for media files.
+
+        :param filename: file original name.
+        :return: New file name in uuid-4 format.
+        """
         ext_of_file = filename.strip().split('.')[-1]
         new_filename = f'{uuid.uuid4()}.{ext_of_file}'
         return os.path.join('customer_feedback/', new_filename)
@@ -138,8 +250,21 @@ class CustomerFeedback(models.Model):
 
 
 class HeroSection(models.Model):
+    """
+    The class is responsible for creating "Hero Section" models In the database.
+
+    photo - Background photo.\n
+    title - Title of the hero block.\n
+    description - Description inside.\n
+    """
 
     def get_file_name(self, filename: str) -> str:
+        """
+        Function for getting unique uuid-names for media files.
+
+        :param filename: file original name.
+        :return: New file name in uuid-4 format.
+        """
         ext_of_file = filename.strip().split('.')[-1]
         new_filename = f'{uuid.uuid4()}.{ext_of_file}'
         return os.path.join('hero/', new_filename)
@@ -150,6 +275,22 @@ class HeroSection(models.Model):
 
 
 class UserReservation(models.Model):
+    """
+    The class is responsible for creating "User Reservation" models In the database, that will be used in forms on
+    the site.
+
+    mobile_re - regular expression for mobile phone validation.\n
+    email_re - regular expression for email validation.\n
+    name - Name of the customer.\n
+    email - Customer's email.\n
+    phone - Customer's phone.\n
+    date_reservation - Date of table reservation.\n
+    time_reservation - Time of table reservation.\n
+    persons - How many persons.\n
+    message - Additional message.\n
+    date_of_the_request - Date and time when request was created.\n
+    is_processed - Is request processed oe not.\n
+    """
 
     mobile_re = RegexValidator(regex=r'^(\d{3}[- .]?){2}\d{4}$', message='Phone in format xxx xxx xxxx')
     email_re = RegexValidator(regex=r'^[a-zA-Z0-9]{1}[a-zA-Z0-9_]+(-{1})?[a-zA-Z0-9_]+@{1}([a-zA-Z0-9]+\.)+[a-z0-9]{1}'
@@ -173,6 +314,9 @@ class UserReservation(models.Model):
 
 
 class ThisIsForTest(models.Model):
+    """
+    Test feature.
+    """
 
     this_is_text = HTMLField(max_length=250)
     this_is_text_2 = HTMLField(max_length=250)
@@ -180,6 +324,18 @@ class ThisIsForTest(models.Model):
 
 
 class ContactUs(models.Model):
+    """
+    The class is responsible for creating "Contact Us" models In the database, that will be used in forms on
+    the site.
+
+    email_re - regular expression for email validation.\n
+    name - Name of the customer.\n
+    email - Customer's email.\n
+    subject - Subject of the request.\n
+    message - Additional message.\n
+    date_of_the_request - Date and time when request was created.\n
+    is_processed - Is request processed oe not.\n
+    """
 
     email_re = RegexValidator(regex=r'^[a-zA-Z0-9]{1}[a-zA-Z0-9_]+(-{1})?[a-zA-Z0-9_]+@{1}([a-zA-Z0-9]+\.)+[a-z0-9]{1}'
                                     r'([a-z0-9-]*[a-z0-9])?$', message='Standard e-mail form')
@@ -199,6 +355,18 @@ class ContactUs(models.Model):
 
 
 class InformationInContactUs(models.Model):
+    """
+    The class is responsible for creating "Information In Contact Us" models In the database.
+
+    header - Header of the information.\n
+    heading_text - Heading text.\n
+    location - Location of the restaurant.\n
+    open_hours - Open hours.\n
+    email - Restaurant's email.\n
+    call - Restaurant's phone number.\n
+    phone_for_top_bar - Restaurant's phone number for top bar.\n
+    open_hours_for_top_bar - Restaurant's open hours for top bar.\n
+    """
 
     header = models.CharField(max_length=50)
     heading_text = HTMLField(max_length=250)
@@ -214,6 +382,18 @@ class InformationInContactUs(models.Model):
 
 
 class Footer(models.Model):
+    """
+    The class is responsible for creating "Footer" models In the database.
+
+    header - Header of the information.\n
+    heading_text - Heading text.\n
+    twitter - Twitter link.
+    facebook - Facebook link.
+    instagram - Instagram link.
+    skype - Skype login.
+    linked_in - Linkedin link.
+    site_owner - Site owner.
+    """
 
     header = HTMLField()
     heading_text = HTMLField(blank=True)
