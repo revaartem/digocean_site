@@ -30,7 +30,7 @@ Delicious Cafe is a simple and elegant web application built using Django. It al
 ## Installing:
 Clone the repository to your local machine using Git. Open your command prompt or terminal and navigate to the directory where you want to install the app. Then, run the following command:
 ```
-git clone https://github.com/your-username/delicious-cafe.git
+git clone https://github.com/revaartem/digocean_site
 ```
 Create a virtual environment for the app. Navigate to the project directory and run the following command to create a virtual environment:
 ```
