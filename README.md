@@ -26,3 +26,36 @@ The Manager section is a hidden section only accessible to users belonging to th
 
 ## Conclusion
 Delicious Cafe is a simple and elegant web application built using Django. It allows customers to view the restaurant's menu, make table reservations, and contact the restaurant. Meanwhile, the Manager section provides a streamlined way to process client applications and table reservations.
+
+## Installing:
+Clone the repository to your local machine using Git. Open your command prompt or terminal and navigate to the directory where you want to install the app. Then, run the following command:
+```
+git clone https://github.com/your-username/delicious-cafe.git
+```
+Create a virtual environment for the app. Navigate to the project directory and run the following command to create a virtual environment:
+```
+python -m venv env
+```
+Activate the virtual environment. Run the following command to activate the virtual environment:
+```
+source env/bin/activate
+```
+Note: If you are using Windows, you can activate the virtual environment by running env\Scripts\activate.
+
+Install the required packages for the app. Run the following command to install the packages:
+```
+pip install -r requirements.txt
+```
+Set up the database. Run the following command to create the database tables:
+```
+python manage.py migrate
+```
+Create a superuser. Run the following command and follow the prompts to create a superuser:
+```
+python manage.py createsuperuser
+```
+Run the server. Finally, run the following command to start the server:
+```
+python manage.py runserver
+```
+Now you can open your web browser and navigate to http://localhost:8000 to see the Delicious Cafe app in action.
